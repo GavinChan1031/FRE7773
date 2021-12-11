@@ -8,13 +8,13 @@ Last update: December 2021.
 
 requirements.txt file contains all the required packages, recommend using virtualenv to keep environments isolated, i.e. creating a new environment:
 
-'python3 -m venv venv'
+`python3 -m venv venv`
 
 then activating it and installing the required dependencies:
 
-'source venv/bin/activate'
+`source venv/bin/activate`
 
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 ## Project Structure
 
