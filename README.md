@@ -26,5 +26,7 @@ then activating it and installing the required dependencies:
 
 * index.html: used to display the predicted result, needed to be placed in the templates file
 
+Notes: best_model.pkl and best_vectorizer.pkl file are too huge and cannot be uploaded into Github. After you run the meta_flow.py, these two documents will be automatically generated in the folders.
+
 ## Acknowledgments
 Thanks Prof. Meninder Purewal and Prof. Jacopo Tagliabue for their teach in ML and NLP and the great help and guidances in this project!
