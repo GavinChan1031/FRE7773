@@ -1,0 +1,9 @@
+scikit-learn==0.23.1
+metaflow==2.3.6
+flask==2.0.2
+datasets==1.16.1
+BackTranslation==0.3.1
+nltk==3.6.1
+comet_ml==3.23.0
+matplotlib==3.3.4
+tensorflow==2.7.0
