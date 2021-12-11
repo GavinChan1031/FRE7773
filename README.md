@@ -8,23 +8,23 @@ Last update: December 2021.
 
 requirements.txt file contains all the required packages, recommend using virtualenv to keep environments isolated, i.e. creating a new environment:
 
-python3 -m venv venv
+'python3 -m venv venv'
 
 then activating it and installing the required dependencies:
 
-source venv/bin/activate
+'source venv/bin/activate'
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 ## Project Structure
 
-meta_flow.py: this is the main file, including Bitcoin tweets data cleaning, sentiment analysis using textblob, text convertion using tfidf vectorizer, sentiment prediction using RandomForestClassifier, SGDClassifier and MultinomialNB, quantitative and qualitative test on model performance, vectorizer and model pickling for the Flask app to work
+* meta_flow.py: this is the main file, including Bitcoin tweets data cleaning, sentiment analysis using textblob, text convertion using tfidf vectorizer, sentiment prediction using RandomForestClassifier, SGDClassifier and MultinomialNB, quantitative and qualitative test on model performance, vectorizer and model pickling for the Flask app to work
 
-best_model.pkl: the classifier model is pickled in this file, used for the Flask app
+* best_model.pkl: the classifier model is pickled in this file, used for the Flask app
 
-best_vectorizer.pkl: the vectorizer is pickled in this file, used for the Flask app
+* best_vectorizer.pkl: the vectorizer is pickled in this file, used for the Flask app
 
-index.html: used to display the predicted result, needed to be placed in the templates file
+* index.html: used to display the predicted result, needed to be placed in the templates file
 
 ## Acknowledgments
 Thanks Prof. Meninder Purewal and Prof. Jacopo Tagliabue for their teach in ML and NLP and the great help and guidances in this project!
